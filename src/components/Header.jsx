@@ -4,7 +4,7 @@ import styled from "styled-components"
 function Header() {
   return (
     <Nav>
-      <Logo src="/images/logo.svg" />
+      <Logo src="/images/logo.svg" alt="Disney logo" />
       <NavMenu>
         <a href="/">
           <img src="images/home-icon.svg" alt="Home Icon" />
@@ -49,6 +49,7 @@ const Nav = styled.nav`
 `
 const Logo = styled.img`
   width: 80px;
+  cursor: pointer;
 `
 const NavMenu = styled.div`
   display: flex;
